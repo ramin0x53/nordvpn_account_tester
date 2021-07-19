@@ -33,4 +33,5 @@ if __name__ == "__main__":
             outp = checker(d[0], d[1])
 
             if outp != False:
-                print("Username: " + d[0] + "    Password: " + d[1])
+                s = 40 - len(d[0])
+                print("Username: " + d[0] + s * " " + "Password: " + d[1])
